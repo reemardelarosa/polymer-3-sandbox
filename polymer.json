@@ -1,0 +1,20 @@
+{
+  "entrypoint": "index.html",
+  "shell": "polymer-sandbox.js",
+  "fragments": [
+  ],
+  "sources": [
+   "data/**/*",
+   "manifest/**",
+   "package.json"
+  ],
+  "extraDependencies": [
+    "manifest.json",
+    "node_modules/@webcomponents/webcomponentsjs/**",
+    "serviceworker.js"
+  ],
+  "builds": [
+    { "preset": "es5-bundled" },
+    { "preset": "es6-unbundled" }
+  ]
+}

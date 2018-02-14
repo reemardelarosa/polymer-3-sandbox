@@ -1,0 +1,9 @@
+{
+  "name": "polymer-3-sandbox",
+  "version": "1.0.0",
+  "main": "polymer-sandbox.js",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.0.0-pre.9"
+  }
+}
