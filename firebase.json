@@ -1,0 +1,26 @@
+{
+  "hosting": {
+    "public": "build/es6-unbundled",
+    "ignore": [
+      "firebase.json",
+      "**/.*"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**/node_modules/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=63070000000"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -9,27 +9,46 @@
   <link rel="icon" href="manifest/favicon.ico">
   <link rel="manifest" href="manifest.json">
   <link rel="canonical" href="https://polymer-3-sandbox.firebaseapp.com/" />
-  <!--script>
+  <script>
     // Load Service Worker
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function() {
         navigator.serviceWorker.register('serviceworker.js').then(function(registration) {
           // Registration was successful
-          console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          // console.log('ServiceWorker registration successful with scope: ', registration.scope);
         }, function(err) {
           // Registration failed
           console.log('ServiceWorker registration failed: ', err);
         });
       });
     }
-  </script-->
-  <script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" async></script>
-  <script src="./polymer-sandbox.js" type="module" async></script>
+  </script>
+  <style>
+    html {
+      height: 100%;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    polymer-sandbox {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    embedded-plunker {
+      height: 100%;
+    }
+  </style>
   <title>Polymer 3.0 Sandbox</title>
 </head>
+<script src="./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" async></script>
+<script type="module" src="polymer-sandbox.js" async></script>
+<script type="module" src="embedded-plunker.js" async></script>
 <body>
   <polymer-sandbox>
-    <p>Could not render the custom element. Check that JavaScript is enabled.</p>
+    <embedded-plunker></embedded-plunker>
   </polymer-sandbox>
 </body>
 </html>
