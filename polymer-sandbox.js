@@ -101,8 +101,24 @@ class PolymerSandbox extends PolymerElement {
     - Update the embedded plunker   */
   _currentPlunkChanged(newValue, oldValue){
     this.$.plunkdesc.innerHTML=this.plunkData[newValue].plunkDescription;
-    const embeddedPlunker = this.$.embeddedplunkerslot.assignedNodes()[1]; // because text nodes.
-    embeddedPlunker.plunkId = newValue;
+
+    /*  Look through each node assigned to the slot.
+        If it is an <embedded-plunker>, set its plunkId prop to 
+        the new currentPlunk.  */
+    var nodes = this.$.slot.assignedNodes();
+    for (var i = 0; i< nodes.length; i++) {
+      if(nodes[i].nodeName == 'EMBEDDED-PLUNKER') {
+        var embeddedPlunker = nodes[i];
+        embeddedPlunker.plunkId = newValue;
+      }
+    }
+    /*  The following code works in polymer dev server but does not work in production:   */ 
+    /* 
+        const embeddedPlunker = this.$.slot.assignedNodes()[1]; // because text nodes.
+        console.log(this.$.slot.assignedNodes()[1]);
+        embeddedPlunker.plunkId = newValue;
+    */ 
+    /*  Maybe I am hallucinating but when deployed to firebase, there are no text nodes. wat  */
   }
 
   _getCategoryName(categoryId){
@@ -203,7 +219,7 @@ class PolymerSandbox extends PolymerElement {
           </div>
           <div class="contained" id="embeddedplunk">
             <!-- Embedded Plunker goes here --> 
-            <slot id="embeddedplunkerslot"></slot>
+            <slot id="slot"></slot>
           </div>
         </div>
       </main>
