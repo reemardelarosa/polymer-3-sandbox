@@ -1,0 +1,244 @@
+{ 
+  "categoryData": { 
+    "properties": 
+    {
+      "categoryId": "properties",
+      "categoryName": "Properties",
+      "plunks": [ "a2dZmn", "ov8uvE",  "vYncKAWwYldiEQax5PW6", "W07H4B", "UYdBlc", "P541Ce"]
+    },
+    "property-observers": 
+    {
+      "categoryId": "property-observers",
+      "categoryName": "Property Observers",
+      "plunks": [ "JGiZug", "JK0RxT", "W07H4B", "w3Lkr0", "5WXg21" ]
+    },
+    "events": 
+    {
+      "categoryId": "Events",
+      "categoryName": "Events",
+      "plunks": ["nLPcIZ", "YBcwSb", "iJ3IZf"]
+    },
+    "arrays-objects":
+    {
+      "categoryId": "arrays-objects",
+      "categoryName": "Arrays and Objects",
+      "plunks": [ "pqhTCW", "OJibHI", "w3Lkr0", "xwetb0", "7y2kE7", "SDymtm" ]
+    },
+    "shadow-dom":
+    {
+      "categoryId": "shadow-dom",
+      "categoryName": "Shadow DOM",
+      "plunks":  ["FUPiaQ","cVPk9O","Qb3Ibn","xaNZjE"]
+    },
+    "slots":
+    {
+      "categoryId": "slots",
+      "categoryName": "Slots",
+      "plunks": ["27qNnX","i4a0DS","E0rJL3","73Fl77", "thKiy4","oOj3rw","kWXs2o","tnPr7r","WGyGi2","m7bVdk", "MSN2FC"]
+    },
+    "styling":
+    {
+      "categoryId": "styling",
+      "categoryName": "Styling",
+      "plunks": [ "JooAma", "NKuNTD", "jziXon", "XDCXXG", "BByXie", "tbPBVG", "U7BG6S", "e6m48f", "pb0D6r15jvvxYVWsZ95U", "Xb4j1r4wEgGuyUM9huFV", "Ep8AVOHgiwQjtv8x5kwd", "PzypR0973pxg3fquWhco", "Cd9XdfAF0RNEw5MGOudE", "7AvgX9jQApbJoWHbdPkI", "0o1zuMHgmt4novf2DS8z", "yiD9XWPHaMjHaGGwu4V9" ]
+    }
+  },
+  "plunkData": {
+    "": {
+      "plunkId": "",
+      "plunkTitle": "",
+      "plunkDescription": "<ul><li></li><li></li><li></li></ul>"
+    },
+    "a2dZmn": {
+      "plunkId": "a2dZmn",
+      "plunkTitle": "Declare simple properties",
+      "plunkDescription": "<ul><li>Declare simple properties (<code>Boolean</code>, <code>String</code>, <code>Number</code>, <code>Date</code>) in a static <code>properties</code> getter.</li><li>Initialize values for simple properties in the static <code>properties</code> getter.</li><li>Initialize values for simple properties from attributes in markup.</li></ul>"
+    },
+    "JGiZug": {
+      "plunkId": "JGiZug",
+      "plunkTitle": "Observe a simple property",
+      "plunkDescription": "For simple properties (<code>Boolean</code>, <code>String</code>, <code>Number</code>, <code>Date</code>), set a property change observer from the static <code>properties</code> getter.<p>There are two ways to set a property change observer for a simple property:</p> <ul><li>Specify the observer function with a string matching its name</li><li>Refer to the observer function directly</li></ul>"
+    },
+    "ov8uvE": {
+      "plunkId": "ov8uvE",
+      "plunkTitle": "Declare complex properties",
+      "plunkDescription": "<ul><li>Declare complex properties (<code>Array</code> and <code>Object</code>) in a static <code>properties</code> getter.</li><li>Use functions to initialize values for complex properties in the static <code>properties</code> getter.</li><li>Initialize values for complex properties from attributes in markup.</li><li>Set and use a property change observer for a complex property.</li></ul>"
+    },
+    "JK0RxT": {
+      "plunkId": "JK0RxT",
+      "plunkTitle": "Observe a complex property",
+      "plunkDescription": "For complex properties (<code>Array</code> and <code>Object</code>), set a property change observer by..."
+    },
+    "W07H4B": {
+      "plunkId": "W07H4B",
+      "plunkTitle": "Declare a simple computed property",
+      "plunkDescription": "<ul><li>Declare a computed property.</li><li>Demonstrate that Polymer computes a computed property when <i>at least 1</i> of its dependencies is defined.</li></ul>"
+    },
+    "UYdBlc": {
+      "plunkId": "UYdBlc",
+      "plunkTitle": "Declare a complex computed property",
+      "plunkDescription": ""
+    },
+    "5WXg21": {
+      "plunkId": "5WXg21",
+      "plunkTitle": "Observers are synchronous",
+      "plunkDescription": "Demonstrate that property observers are synchronous."
+    },
+    "nLPcIZ": {
+      "plunkId": "nLPcIZ",
+      "plunkTitle": "Add annotated event listeners",
+      "plunkDescription": "Use Polymer features to declaratively add annotated event listeners.",
+      "plunkCategory": "events"
+    },
+    "YBcwSb": {
+      "plunkId": "YBcwSb",
+      "plunkTitle": "Add an event listener imperatively",
+      "plunkDescription": "Add an event listener imperatively to a custom element.",
+      "plunkCategory": "events"
+    },
+    "SDymtm": {
+      "plunkId": "SDymtm",
+      "plunkTitle": "Update an array observably.",
+      "plunkDescription": "Update an array so that the Polymer data system can detect the changes.<ul><li>Update an array observably using Polymer array functions.</li><li>Show what happens when an array is updated unobservably with standard JavaScript array functions.</li> <li>Update an array unobservably with standard JavaScript array functions; then notify the Polymer data system manually, using notifySplices.</li></ul>",
+      "plunkCategory": "arrays-objects"
+    },
+    "w3Lkr0": {
+      "plunkId": "w3Lkr0",
+      "plunkTitle": "Set a property change observer for an array",
+      "plunkDescription": "<ul><li>Update array properties observably.</li><li>Receive array property change notifications.</li></ul>",
+      "plunkCategory": "arrays-objects"
+    },
+    "P541Ce": {
+      "plunkId": "P541Ce",
+      "plunkTitle": "Declare a read-only property",
+      "plunkDescription": "<ul><li>Create a read-only property.</li><li>Update a read-only property with a generated setter.</li></ul>",
+      "plunkCategory": "properties"
+    },
+    "vYncKAWwYldiEQax5PW6": {
+      "plunkId": "vYncKAWwYldiEQax5PW6",
+      "plunkTitle": "Sync an attribute with a property",
+      "plunkDescription": "Keep an HTML attribute value in sync with its corresponding property value by using the <code>reflectToAttribute</code> flag.",
+      "plunkCategory": "properties"
+    },
+    "FUPiaQ": {
+      "plunkId": "FUPiaQ",
+      "plunkTitle": "Create a Polymer element with shadow DOM",
+      "plunkDescription": "Create a simple Polymer element with shadow DOM.",
+      "plunkCategory": "shadow-dom"
+    },
+    "cVPk9O": {
+      "plunkId": "cVPk9O",
+      "plunkTitle": "Understand shadow DOM encapsulation",
+      "plunkDescription": "Understand shadow DOM encapsulation",
+      "plunkCategory": "shadow-dom"
+    },
+    "Qb3Ibn": {
+      "plunkId": "Qb3Ibn",
+      "plunkTitle": "Understand shadow DOM vs light DOM",
+      "plunkDescription": "Understand the difference between shadow DOM and light DOM.",
+      "plunkCategory": "shadow-dom"
+    },
+    "xaNZjE": {
+      "plunkId": "xaNZjE",
+      "plunkTitle": "Create shadow DOM declaratively with Polymer",
+      "plunkDescription": "Create shadow DOM declaratively with Polymer",
+      "plunkCategory": "shadow-dom"
+    },
+    "27qNnX": {
+      "plunkId": "27qNnX",
+      "plunkTitle": "Render light DOM in slots",
+      "plunkDescription": "Use the slot element to render an element's light dom children",
+      "plunkCategory": "slots"
+    },
+    "i4a0DS": {
+      "plunkId": "i4a0DS",
+      "plunkTitle": "Assign an element to a named slot",
+      "plunkDescription": "<ul><li>Use named slots and the <code>slot</code> attribute to assign light DOM elements to specific slots.</li><li>Demonstrate that un-named slots receive any light DOM child without a <code>slot</code> attribute.</li><li>Demonstrate that a named slot with no matching light DOM children receives no children.</li></ul>",
+      "plunkCategory": "slots"
+    },
+    "E0rJL3": {
+      "plunkId": "E0rJL3",
+      "plunkTitle": "Multiple unnamed slots; one thing to slot",
+      "plunkDescription": "Demonstrate what happens when you have multiple unnamed slots and one thing to be slotted",
+      "plunkCategory": "slots"
+    },
+    "73Fl77": {
+      "plunkId": "73Fl77",
+      "plunkTitle": "One unnamed slot; multiple things to slot",
+      "plunkDescription": "Demonstrate what happens when you have one unnamed slot and multiple things to be slotted",
+      "plunkCategory": "slots"
+    },
+    "thKiy4": {
+      "plunkId": "thKiy4",
+      "plunkTitle": "Use fallback content for a slot",
+      "plunkDescription": "Create a slot that displays fallback content when nothing is provided to be slotted.",
+      "plunkCategory": "slots"
+    },
+    "oOj3rw": {
+      "plunkId": "oOj3rw",
+      "plunkTitle": "Assign a slot to a slot",
+      "plunkDescription": "Assign a slot element to a slot (use multilevel distribution)",
+      "plunkCategory": "slots"
+    },
+    "kWXs2o": {
+      "plunkId": "kWXs2o",
+      "plunkTitle": "Understand the flattened DOM",
+      "plunkDescription": "Demonstrate the flattened DOM for parent and child elements with populated slots",
+      "plunkCategory": "slots"
+    },
+    "tnPr7r": {
+      "plunkId": "tnPr7r",
+      "plunkTitle": "Find which slot an element is in",
+      "plunkDescription": "Use the Shadow DOM Slot APIs to find info about the elements assigned to slots.<ul><li>Use the <code>HTMLSlotElement.assignedSlot</code> function to determine which slot an element is in.</li><li>Use the <code>HTMLSlotElement.assignedNodes()</code> function to determine the element that is assigned to a slot.</li></ul>",
+      "plunkCategory": "slots"
+    },
+    "WGyGi2": {
+      "plunkId": "WGyGi2",
+      "plunkTitle": "Detect changes to distributed nodes",
+      "plunkDescription": "Detect changes to slot content",
+      "plunkCategory": "slots"
+    },
+    "m7bVdk": {
+      "plunkId": "m7bVdk",
+      "plunkTitle": "Return the distributed nodes for a slot",
+      "plunkDescription": "Return the distributed nodes for a slot",
+      "plunkCategory": "slots"
+    },
+    "MSN2FC": {
+      "plunkId": "MSN2FC",
+      "plunkTitle": "Observe added and removed children",
+      "plunkDescription": "<ul><li>Detect changes to slot content.</li><li>Use the FlattenedNodesObserver utility to observe a removed node.</li></ul>",
+      "plunkCategory": "slots"
+    },
+    "iJ3IZf": {
+      "plunkId": "iJ3IZf",
+      "plunkTitle": "Handle events in shadow DOM",
+      "plunkDescription": "<ul><li>Listen for events in shadow trees.</li><li>Handle retargeted events.</li><li>Retrieve the <code>composedPath</code> of an event.</li><li>Demonstrate how events are retargeted as they move through a shadow tree.</li></ul>",
+      "plunkCategory": "events"
+    },
+    "pqhTCW": {
+      "plunkId": "pqhTCW",
+      "plunkTitle": "Initialize array and object properties",
+      "plunkDescription": "Use functions to initialize arrays and objects. This ensures that each element gets its own copy of the value, rather than having an object or array shared across all instances of the element.",
+      "plunkCategory": "arrays-objects"
+    },
+    "OJibHI": {
+      "plunkId": "OJibHI",
+      "plunkTitle": "Initialize arrays and objects from markup",
+      "plunkDescription": "Initialize object and array properties from markup.",
+      "plunkCategory": "arrays-objects"
+    },
+    "xwetb0": {
+      "plunkId": "xwetb0",
+      "plunkTitle": "Bind to an array item",
+      "plunkDescription": "<ul><li>Use a computed binding to correctly bind to a specific array item.</li><li>Demonstrate what happens this is done incorrectly.</li></ul>",
+      "plunkCategory": "arrays-objects"
+    },
+    "7y2kE7": {
+      "plunkId": "7y2kE7",
+      "plunkTitle": "Bind to a subproperty of an array item",
+      "plunkDescription": "<ul><li>Use computed bindings to correctly bind to a subproperty of an array item.</li><li>Demonstrate what happens when this is done incorrectly.</li></ul>",
+      "plunkCategory": "arrays-objects"
+    }
+  }
+}

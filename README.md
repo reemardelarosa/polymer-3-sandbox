@@ -21,7 +21,7 @@ npm install -g polymer-cli
 ## Clone this repo
 
 ```
-git clone https://github.com/katejeffreys/polymer-3-sandbox.git
+git clone https://github.com/katejeffreys-projects/polymer-3-sandbox.git
 ```
 
 ## Serve project locally

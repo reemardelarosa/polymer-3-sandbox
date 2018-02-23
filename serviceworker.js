@@ -52,8 +52,7 @@ self.addEventListener('fetch', function(event) {
 
 self.addEventListener('activate', function(event) {
   /*
-  
-  If your service worker changes, you will need to add code here for cache management.
-  See "Update a Service Worker" in Matt Gaunt's primer on Service Workers at https://developers.google.com/web/fundamentals/primers/service-workers/#update-a-service-worker
+    If your service worker changes, you will need to add code here for cache management.
+    See "Update a Service Worker" in Matt Gaunt's primer on Service Workers at https://developers.google.com/web/fundamentals/primers/service-workers/#update-a-service-worker
   */
 });
