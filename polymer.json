@@ -2,6 +2,7 @@
   "entrypoint": "index.html",
   "shell": "polymer-sandbox.js",
   "fragments": [
+    "embedded-plunker.js"
   ],
   "sources": [
    "data/**/*",
