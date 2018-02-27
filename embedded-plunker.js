@@ -46,6 +46,7 @@ class EmbeddedPlunker extends PolymerElement {
         src="[[plunkSrc]]"
         frameBorder="0"
         allowfullscreen="allowfullscreen"
+        title="Embedded Polymer Sample"
       ></iframe>
     `;
   }

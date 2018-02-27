@@ -40,6 +40,45 @@
     embedded-plunker {
       height: 100%;
     }
+
+    /* Begin placeholder styles */
+    #placeholders {
+      display: block;
+      font-family: Roboto, Noto, sans-serif;
+      padding: 0;
+      margin: 0;
+    }
+    #toolbar {
+      font-size: 20px;
+      background-color: #2196f3;
+      color: white;
+      padding: 0 16px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+    }
+    #left-nav {
+      float: left;
+      width: 300px;
+      height: 360px;
+      background-color: #f1f1f1;
+    }
+    #main {
+      clear: none;
+      height: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    @media(max-width: 600px) {
+      #left-nav {
+        float: none;
+        width: 100%;
+      }
+    }
+    /* End placeholder styles */
   </style>
   <title>Polymer 3.0 Sandbox</title>
 </head>
@@ -48,7 +87,29 @@
 <script type="module" src="embedded-plunker.js" async></script>
 <body>
   <polymer-sandbox>
-    <embedded-plunker></embedded-plunker>
+    <!-- Begin placeholder content -->
+    <div id="placeholders">
+      <!-- Placeholders to fix time to first paint - will disappear on load -->
+      <div id="toolbar">Polymer 3.0 Sandbox</div>
+      <div id="left-nav"></div>
+      <div id="main">
+        <main>
+          <div class="container">
+            <div class="contained" id="plunkdata">
+              <p><b>Declare simple properties</b> | <small>Edit this Plunker sample in a new tab: <a target="_blank" href="https://plnkr.co/edit/a2dZmn?p=preview">https://plnkr.co/edit/a2dZmn?p=preview</a></small></p>
+              <p id="plunkdesc"><ul><li>Declare simple properties (<code>Boolean</code>, <code>String</code>, <code>Number</code>, <code>Date</code>) in a static <code>properties</code> getter.</li><li>Initialize values for simple properties in the static <code>properties</code> getter.</li><li>Initialize values for simple properties from attributes in markup.</li></ul></p>
+            </div>
+            <div class="contained" id="embeddedplunk">
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+    <!-- End placeholder content -->
+
+    <!-- Begin real content -->
+    <embedded-plunker slot="slot"></embedded-plunker>
+    <!-- End real content -->
   </polymer-sandbox>
 </body>
 </html>

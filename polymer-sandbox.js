@@ -214,12 +214,12 @@ class PolymerSandbox extends PolymerElement {
       <main>
         <div class="container">
           <div class="contained" id="plunkdata">
-            <p><b>[[_getPlunkTitle(currentPlunk)]]</b> | <small>Edit this Plunker sample in a new tab: <a target="_blank" href="https://plnkr.co/edit/[[currentPlunk]]?p=preview">https://plnkr.co/edit/[[currentPlunk]]?p=preview</a></small></p>
+            <p><b>[[_getPlunkTitle(currentPlunk)]]</b> | <small>Edit this Plunker sample in a new tab: <a target="_blank" rel="noopener" href="https://plnkr.co/edit/[[currentPlunk]]?p=preview">https://plnkr.co/edit/[[currentPlunk]]?p=preview</a></small></p>
             <p id="plunkdesc"></p>
           </div>
           <div class="contained" id="embeddedplunk">
             <!-- Embedded Plunker goes here --> 
-            <slot id="slot"></slot>
+            <slot id="slot" name="slot"></slot>
           </div>
         </div>
       </main>
