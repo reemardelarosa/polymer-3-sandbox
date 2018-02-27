@@ -10,22 +10,45 @@ class EmbeddedPlunker extends PolymerElement {
       plunkSrc: {
         type: String,
         computed: '_getPlunkSrc(plunkId)'
+      },
+      mainPageReady: {
+        type: Boolean,
+        value: false
       }
     };
   }
+
+  connectedCallback () {
+    super.connectedCallback();
+    window.addEventListener('load', this.loadPlunk.bind(this));
+  }
+
+  disconnectedCallback(){
+    super.disconnectedCallback();
+    window.removeEventListener('load', this.loadPlunk.bind(this));
+  }
   
+  loadPlunk(event){
+    console.log(event);
+    this.mainPageReady = true;
+    this.$.iframe.src = this._getPlunkSrc(this.plunkId);
+  }
+
   _attachDom(dom) {
     this.appendChild(dom);
   }
 
   _getPlunkSrc(plunkId) {
-    if (window.innerWidth >= 1000 ) {
-      return 'https://embed.plnkr.co/' + plunkId + '/?p=app,preview&show=js,preview&sidebar=tree';
-    } else if (window.innerWidth >= 500 ) {
-      return 'https://embed.plnkr.co/' + plunkId + '/?p=preview&show=js,preview&sidebar=none';
-    } else {
-      return 'https://embed.plnkr.co/' + plunkId + '/?show=js&sidebar=none';
+    if (this.mainPageReady) {
+      if (window.innerWidth >= 1000 ) {
+        return 'https://embed.plnkr.co/' + plunkId + '/?p=app,preview&show=js,preview&sidebar=tree';
+      } else if (window.innerWidth >= 500 ) {
+        return 'https://embed.plnkr.co/' + plunkId + '/?p=preview&show=js,preview&sidebar=none';
+      } else {
+        return 'https://embed.plnkr.co/' + plunkId + '/?show=js&sidebar=none';
+      }
     }
+    else return '';
   }
   
   static get template () {
@@ -43,6 +66,7 @@ class EmbeddedPlunker extends PolymerElement {
         }
       </style>
       <iframe
+        id='iframe'
         src="[[plunkSrc]]"
         frameBorder="0"
         allowfullscreen="allowfullscreen"
