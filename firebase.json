@@ -20,6 +20,14 @@
             "value": "max-age=63070000000"
           }
         ]
+      },{
+        "source": "*.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "max-age=63070000000"
+          }
+        ]
       }
     ]
   }

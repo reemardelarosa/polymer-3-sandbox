@@ -1,21 +1,59 @@
 import { Element as PolymerElement, html } from './node_modules/@polymer/polymer/polymer-element.js'; 
+import { FlattenedNodesObserver } from './node_modules/@polymer/polymer/lib/utils/flattened-nodes-observer.js';
 
 class EmbeddedPlunker extends PolymerElement {
   static get properties () {
     return {
       plunkId: {
         type: String,
-        value: ''
+        value: '',
+        observer: '_refreshIframe'
       },
-      plunkSrc: {
-        type: String,
-        computed: '_getPlunkSrc(plunkId)'
+      iframe: {
+        type: Object
       }
     };
   }
+
+  connectedCallback () {
+    super.connectedCallback();
+    window.addEventListener('load', this.loadPlunk.bind(this));
+  }
+
+  disconnectedCallback(){
+    super.disconnectedCallback();
+    window.removeEventListener('load', this.loadPlunk.bind(this));
+  }
   
+  loadPlunk(event){
+    var iframe = document.createElement("iframe");
+    iframe.id="iframe";
+    iframe.frameBorder="0";
+    iframe.title="Sample";
+    this.appendChild(iframe);
+    var nodes = FlattenedNodesObserver.getFlattenedNodes(this);
+    for (var i=0; i < nodes.length; i++){
+      if (nodes[i].nodeName =='IFRAME'){
+        this.iframe=nodes[i];
+      }
+    }
+    this.set('iframe.src', this._getPlunkSrc(this.plunkId));
+  }
+
   _attachDom(dom) {
     this.appendChild(dom);
+  }
+
+  _refreshIframe(newValue, oldValue) {
+    if (this.iframe != undefined ) {
+      console.log(this.iframe.src);
+      this.iframe.src = '';
+      console.log(this.iframe.src);
+      //console.log(this.iframe.contentDocument);
+      //console.log(this.iframe.contentWindow.document);
+      //this.iframe.src="";
+      this.set('iframe.src', this._getPlunkSrc(newValue));
+    }
   }
 
   _getPlunkSrc(plunkId) {
@@ -42,12 +80,6 @@ class EmbeddedPlunker extends PolymerElement {
           height: 100%;
         }
       </style>
-      <iframe
-        src="[[plunkSrc]]"
-        frameBorder="0"
-        allowfullscreen="allowfullscreen"
-        title="Embedded Polymer Sample"
-      ></iframe>
     `;
   }
 }

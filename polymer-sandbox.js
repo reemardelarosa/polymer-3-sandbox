@@ -147,6 +147,7 @@ class PolymerSandbox extends PolymerElement {
         nav {
           float: left;
           max-width: 300px;
+          min-height: 360px;
         }
         main {
           clear: none;
