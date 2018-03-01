@@ -1,19 +1,16 @@
 import { Element as PolymerElement, html } from './node_modules/@polymer/polymer/polymer-element.js'; 
+import { FlattenedNodesObserver } from './node_modules/@polymer/polymer/lib/utils/flattened-nodes-observer.js';
 
 class EmbeddedPlunker extends PolymerElement {
   static get properties () {
     return {
       plunkId: {
         type: String,
-        value: ''
+        value: '',
+        observer: '_refreshIframe'
       },
-      plunkSrc: {
-        type: String,
-        computed: '_getPlunkSrc(plunkId)'
-      },
-      mainPageReady: {
-        type: Boolean,
-        value: false
+      iframe: {
+        type: Object
       }
     };
   }
@@ -29,26 +26,44 @@ class EmbeddedPlunker extends PolymerElement {
   }
   
   loadPlunk(event){
-    console.log(event);
-    this.mainPageReady = true;
-    this.$.iframe.src = this._getPlunkSrc(this.plunkId);
+    var iframe = document.createElement("iframe");
+    iframe.id="iframe";
+    iframe.frameBorder="0";
+    iframe.title="Sample";
+    this.appendChild(iframe);
+    var nodes = FlattenedNodesObserver.getFlattenedNodes(this);
+    for (var i=0; i < nodes.length; i++){
+      if (nodes[i].nodeName =='IFRAME'){
+        this.iframe=nodes[i];
+      }
+    }
+    this.set('iframe.src', this._getPlunkSrc(this.plunkId));
   }
 
   _attachDom(dom) {
     this.appendChild(dom);
   }
 
-  _getPlunkSrc(plunkId) {
-    if (this.mainPageReady) {
-      if (window.innerWidth >= 1000 ) {
-        return 'https://embed.plnkr.co/' + plunkId + '/?p=app,preview&show=js,preview&sidebar=tree';
-      } else if (window.innerWidth >= 500 ) {
-        return 'https://embed.plnkr.co/' + plunkId + '/?p=preview&show=js,preview&sidebar=none';
-      } else {
-        return 'https://embed.plnkr.co/' + plunkId + '/?show=js&sidebar=none';
-      }
+  _refreshIframe(newValue, oldValue) {
+    if (this.iframe != undefined ) {
+      console.log(this.iframe.src);
+      this.iframe.src = '';
+      console.log(this.iframe.src);
+      //console.log(this.iframe.contentDocument);
+      //console.log(this.iframe.contentWindow.document);
+      //this.iframe.src="";
+      this.set('iframe.src', this._getPlunkSrc(newValue));
     }
-    else return '';
+  }
+
+  _getPlunkSrc(plunkId) {
+    if (window.innerWidth >= 1000 ) {
+      return 'https://embed.plnkr.co/' + plunkId + '/?p=app,preview&show=js,preview&sidebar=tree';
+    } else if (window.innerWidth >= 500 ) {
+      return 'https://embed.plnkr.co/' + plunkId + '/?p=preview&show=js,preview&sidebar=none';
+    } else {
+      return 'https://embed.plnkr.co/' + plunkId + '/?show=js&sidebar=none';
+    }
   }
   
   static get template () {
@@ -65,13 +80,6 @@ class EmbeddedPlunker extends PolymerElement {
           height: 100%;
         }
       </style>
-      <iframe
-        id='iframe'
-        src="[[plunkSrc]]"
-        frameBorder="0"
-        allowfullscreen="allowfullscreen"
-        title="Embedded Polymer Sample"
-      ></iframe>
     `;
   }
 }

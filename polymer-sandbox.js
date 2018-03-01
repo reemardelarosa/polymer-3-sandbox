@@ -124,7 +124,7 @@ class PolymerSandbox extends PolymerElement {
   _getCategoryName(categoryId){
     return(this.categoryData[categoryId].categoryName);
   }
-
+  
   _getPlunkTitle(plunkId){
     return(this.plunkData[plunkId].plunkTitle);
   }
