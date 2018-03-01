@@ -41,14 +41,15 @@
       "categoryId": "styling",
       "categoryName": "Styling",
       "plunks": [ "JooAma", "NKuNTD", "jziXon", "XDCXXG", "BByXie", "tbPBVG", "U7BG6S", "e6m48f", "pb0D6r15jvvxYVWsZ95U", "Xb4j1r4wEgGuyUM9huFV", "Ep8AVOHgiwQjtv8x5kwd", "PzypR0973pxg3fquWhco", "Cd9XdfAF0RNEw5MGOudE", "7AvgX9jQApbJoWHbdPkI", "0o1zuMHgmt4novf2DS8z", "yiD9XWPHaMjHaGGwu4V9" ]
+    },
+    "data-system": 
+    {
+      "categoryId": "data-system",
+      "categoryName": "Data System Concepts",
+      "plunks": ["CfemRy", "iow7sa", "aMSp2W", "mJ9LHx", "Tvlj4K", "2tZVAK", "YUggQ0", "fcTG38", "m2Wswd", "mubfwQ", "KQsyhy", "itGvdu" ]
     }
   },
   "plunkData": {
-    "": {
-      "plunkId": "",
-      "plunkTitle": "",
-      "plunkDescription": "<ul><li></li><li></li><li></li></ul>"
-    },
     "a2dZmn": {
       "plunkId": "a2dZmn",
       "plunkTitle": "Declare simple properties",
@@ -98,9 +99,8 @@
     },
     "SDymtm": {
       "plunkId": "SDymtm",
-      "plunkTitle": "Update an array observably.",
-      "plunkDescription": "Update an array so that the Polymer data system can detect the changes.<ul><li>Update an array observably using Polymer array functions.</li><li>Show what happens when an array is updated unobservably with standard JavaScript array functions.</li> <li>Update an array unobservably with standard JavaScript array functions; then notify the Polymer data system manually, using notifySplices.</li></ul>",
-      "plunkCategory": "arrays-objects"
+      "plunkTitle": "Polymer and native array mutation functions",
+      "plunkDescription": "<p>Use the Polymer array functions to update array items so that the Polymer data system knows about the changes.</p><p>If you can't use the Polymer array functions, use <code>notifyPath</code> or <code>notifySplices</code> instead.</p>"
     },
     "w3Lkr0": {
       "plunkId": "w3Lkr0",
@@ -129,8 +129,7 @@
     "cVPk9O": {
       "plunkId": "cVPk9O",
       "plunkTitle": "Understand shadow DOM encapsulation",
-      "plunkDescription": "Understand shadow DOM encapsulation",
-      "plunkCategory": "shadow-dom"
+      "plunkDescription": "Understand shadow DOM encapsulation"
     },
     "Qb3Ibn": {
       "plunkId": "Qb3Ibn",
@@ -141,104 +140,152 @@
     "xaNZjE": {
       "plunkId": "xaNZjE",
       "plunkTitle": "Create shadow DOM declaratively with Polymer",
-      "plunkDescription": "Create shadow DOM declaratively with Polymer",
-      "plunkCategory": "shadow-dom"
+      "plunkDescription": "Create shadow DOM declaratively with Polymer"
     },
     "27qNnX": {
       "plunkId": "27qNnX",
       "plunkTitle": "Render light DOM in slots",
-      "plunkDescription": "Use the slot element to render an element's light dom children",
-      "plunkCategory": "slots"
+      "plunkDescription": "Use the slot element to render an element's light dom children"
     },
     "i4a0DS": {
       "plunkId": "i4a0DS",
       "plunkTitle": "Assign an element to a named slot",
-      "plunkDescription": "<ul><li>Use named slots and the <code>slot</code> attribute to assign light DOM elements to specific slots.</li><li>Demonstrate that un-named slots receive any light DOM child without a <code>slot</code> attribute.</li><li>Demonstrate that a named slot with no matching light DOM children receives no children.</li></ul>",
-      "plunkCategory": "slots"
+      "plunkDescription": "<ul><li>Use named slots and the <code>slot</code> attribute to assign light DOM elements to specific slots.</li><li>Demonstrate that un-named slots receive any light DOM child without a <code>slot</code> attribute.</li><li>Demonstrate that a named slot with no matching light DOM children receives no children.</li></ul>"
     },
     "E0rJL3": {
       "plunkId": "E0rJL3",
       "plunkTitle": "Multiple unnamed slots; one thing to slot",
-      "plunkDescription": "Demonstrate what happens when you have multiple unnamed slots and one thing to be slotted",
-      "plunkCategory": "slots"
+      "plunkDescription": "Demonstrate what happens when you have multiple unnamed slots and one thing to be slotted"
     },
     "73Fl77": {
       "plunkId": "73Fl77",
       "plunkTitle": "One unnamed slot; multiple things to slot",
-      "plunkDescription": "Demonstrate what happens when you have one unnamed slot and multiple things to be slotted",
-      "plunkCategory": "slots"
+      "plunkDescription": "Demonstrate what happens when you have one unnamed slot and multiple things to be slotted"
     },
     "thKiy4": {
       "plunkId": "thKiy4",
       "plunkTitle": "Use fallback content for a slot",
-      "plunkDescription": "Create a slot that displays fallback content when nothing is provided to be slotted.",
-      "plunkCategory": "slots"
+      "plunkDescription": "Create a slot that displays fallback content when nothing is provided to be slotted."
     },
     "oOj3rw": {
       "plunkId": "oOj3rw",
       "plunkTitle": "Assign a slot to a slot",
-      "plunkDescription": "Assign a slot element to a slot (use multilevel distribution)",
-      "plunkCategory": "slots"
+      "plunkDescription": "Assign a slot element to a slot (use multilevel distribution)"
     },
     "kWXs2o": {
       "plunkId": "kWXs2o",
       "plunkTitle": "Understand the flattened DOM",
-      "plunkDescription": "Demonstrate the flattened DOM for parent and child elements with populated slots",
-      "plunkCategory": "slots"
+      "plunkDescription": "Demonstrate the flattened DOM for parent and child elements with populated slots"
     },
     "tnPr7r": {
       "plunkId": "tnPr7r",
       "plunkTitle": "Find which slot an element is in",
-      "plunkDescription": "Use the Shadow DOM Slot APIs to find info about the elements assigned to slots.<ul><li>Use the <code>HTMLSlotElement.assignedSlot</code> function to determine which slot an element is in.</li><li>Use the <code>HTMLSlotElement.assignedNodes()</code> function to determine the element that is assigned to a slot.</li></ul>",
-      "plunkCategory": "slots"
+      "plunkDescription": "Use the Shadow DOM Slot APIs to find info about the elements assigned to slots.<ul><li>Use the <code>HTMLSlotElement.assignedSlot</code> function to determine which slot an element is in.</li><li>Use the <code>HTMLSlotElement.assignedNodes()</code> function to determine the element that is assigned to a slot.</li></ul>"
     },
     "WGyGi2": {
       "plunkId": "WGyGi2",
       "plunkTitle": "Detect changes to distributed nodes",
-      "plunkDescription": "Detect changes to slot content",
-      "plunkCategory": "slots"
+      "plunkDescription": "Detect changes to slot content"
     },
     "m7bVdk": {
       "plunkId": "m7bVdk",
       "plunkTitle": "Return the distributed nodes for a slot",
-      "plunkDescription": "Return the distributed nodes for a slot",
-      "plunkCategory": "slots"
+      "plunkDescription": "Return the distributed nodes for a slot"
     },
     "MSN2FC": {
       "plunkId": "MSN2FC",
       "plunkTitle": "Observe added and removed children",
-      "plunkDescription": "<ul><li>Detect changes to slot content.</li><li>Use the FlattenedNodesObserver utility to observe a removed node.</li></ul>",
-      "plunkCategory": "slots"
+      "plunkDescription": "<ul><li>Detect changes to slot content.</li><li>Use the FlattenedNodesObserver utility to observe a removed node.</li></ul>"
     },
     "iJ3IZf": {
       "plunkId": "iJ3IZf",
       "plunkTitle": "Handle events in shadow DOM",
-      "plunkDescription": "<ul><li>Listen for events in shadow trees.</li><li>Handle retargeted events.</li><li>Retrieve the <code>composedPath</code> of an event.</li><li>Demonstrate how events are retargeted as they move through a shadow tree.</li></ul>",
-      "plunkCategory": "events"
+      "plunkDescription": "<ul><li>Listen for events in shadow trees.</li><li>Handle retargeted events.</li><li>Retrieve the <code>composedPath</code> of an event.</li><li>Demonstrate how events are retargeted as they move through a shadow tree.</li></ul>"
     },
     "pqhTCW": {
       "plunkId": "pqhTCW",
       "plunkTitle": "Initialize array and object properties",
-      "plunkDescription": "Use functions to initialize arrays and objects. This ensures that each element gets its own copy of the value, rather than having an object or array shared across all instances of the element.",
-      "plunkCategory": "arrays-objects"
+      "plunkDescription": "Use functions to initialize arrays and objects. This ensures that each element gets its own copy of the value, rather than having an object or array shared across all instances of the element."
     },
     "OJibHI": {
       "plunkId": "OJibHI",
       "plunkTitle": "Initialize arrays and objects from markup",
-      "plunkDescription": "Initialize object and array properties from markup.",
-      "plunkCategory": "arrays-objects"
+      "plunkDescription": "Initialize object and array properties from markup."
     },
     "xwetb0": {
       "plunkId": "xwetb0",
       "plunkTitle": "Bind to an array item",
-      "plunkDescription": "<ul><li>Use a computed binding to correctly bind to a specific array item.</li><li>Demonstrate what happens this is done incorrectly.</li></ul>",
-      "plunkCategory": "arrays-objects"
+      "plunkDescription": "<ul><li>Use a computed binding to correctly bind to a specific array item.</li><li>Demonstrate what happens this is done incorrectly.</li></ul>"
     },
     "7y2kE7": {
       "plunkId": "7y2kE7",
       "plunkTitle": "Bind to a subproperty of an array item",
-      "plunkDescription": "<ul><li>Use computed bindings to correctly bind to a subproperty of an array item.</li><li>Demonstrate what happens when this is done incorrectly.</li></ul>",
-      "plunkCategory": "arrays-objects"
+      "plunkDescription": "<ul><li>Use computed bindings to correctly bind to a subproperty of an array item.</li><li>Demonstrate what happens when this is done incorrectly.</li></ul>"
+    },
+    "CfemRy": {
+      "plunkId": "CfemRy",
+      "plunkTitle": "Change a direct property observably",
+      "plunkDescription": "<p>Polymer automatically observes changes to direct properties of a custom element.</code></p>"
+    },
+    "iow7sa": {
+      "plunkId": "iow7sa",
+      "plunkTitle": "Make observable changes: 2-way bindings",
+      "plunkDescription": "<p>Polymer automatically observes changes made via two-way data binding to subproperties (properties of properties).</p>"
+    },
+    "aMSp2W": {
+      "plunkId": "aMSp2W",
+      "plunkTitle": "Unobservable object subproperty change",
+      "plunkDescription": "<p>Don't do this. Polymer can not automatically detect changes to an object subproperty.</p>"
+    },
+    "mJ9LHx": {
+      "plunkId": "mJ9LHx",
+      "plunkTitle": "Change a subproperty observably",
+      "plunkDescription": "<p>Use a Polymer method (<code>PolymerElement.set()</code>) to make observable changes to an object subproperty.</p>"
+    },
+    "Tvlj4K": {
+      "plunkId": "Tvlj4K",
+      "plunkTitle": "Unobservable array change",
+      "plunkDescription": "<p>Don't do this. Polymer can not automatically detect changes to array items.</p>"
+    },
+    "NKSMiE": {
+      "plunkId": "NKSMiE",
+      "plunkTitle": "Change an array item observably",
+      "plunkDescription": "<p>Use a Polymer function to change an array observably.</p>"
+    },
+    "2tZVAK": {
+      "plunkId": "2tZVAK",
+      "plunkTitle": "Change an array observably",
+      "plunkDescription": "<p>Use Polymer array functions to change an array. E.g.: <code>this.push('myArray', 'a string');</code></p><p>The Polymer data system can't observe mutations made with native Array mutation functions, e.g. <code>myArray.pop();</code></p>"
+    },
+    "YUggQ0": {
+      "plunkId": "YUggQ0",
+      "plunkTitle": "Use notifySplices",
+      "plunkDescription": "<p>Make changes to an array using the native Array functions. Then, notify the Polymer data system of the changes by calling <code>notifySplices</code>."
+    },
+    "fcTG38": {
+      "plunkId": "fcTG38",
+      "plunkTitle": "Change objects observably: set()",
+      "plunkDescription": "<p>Make changes to an object's subproperties using a Polymer function: <code>this.set('path.to.subproperty', newValue)</code>. Using this.set() ensures that the Polymer data system knows about your changes."
+    },
+    "m2Wswd": {
+      "plunkId": "m2Wswd",
+      "plunkTitle": "Notify changes with notifyPath",
+      "plunkDescription": "<p>Make unobservable changes to an object's subproperties. Then, notify the Polymer data system of the changes by calling <code>notifyPath</code>."
+    },
+    "mubfwQ": {
+      "plunkId": "mubfwQ",
+      "plunkTitle": "Call notifyPath for deep changes",
+      "plunkDescription": "When calling notifyPath, you need to use the exact path that changed. For example, calling <code>this.notifyPath('address')</code> doesn't pick up a change to <code>address.street</code>."
+    },
+    "KQsyhy": {
+      "plunkId": "KQsyhy",
+      "plunkTitle": "Skip dirty-checking: Cloning",
+      "plunkDescription": ""
+    },
+    "itGvdu": {
+      "plunkId": "itGvdu",
+      "plunkTitle": "Skip dirty-checking: MutableData",
+      "plunkDescription": "Use the MutableData mixin to make it easier to notify the Polymer data system of changes to deep properties."
     }
   }
 }
