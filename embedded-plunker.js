@@ -30,6 +30,8 @@ class EmbeddedPlunker extends PolymerElement {
     iframe.id="iframe";
     iframe.frameBorder="0";
     iframe.title="Sample";
+    iframe.width="100%";
+    iframe.height="100%";
     this.appendChild(iframe);
     var nodes = FlattenedNodesObserver.getFlattenedNodes(this);
     for (var i=0; i < nodes.length; i++){
