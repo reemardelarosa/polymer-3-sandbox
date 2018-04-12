@@ -2,279 +2,279 @@
 # yarn lockfile v1
 
 
-"@polymer/app-layout@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/app-layout/-/app-layout-3.0.0-pre.8.tgz#3ee697c2bdceac4e7c94f651eb7be8ef24256489"
+"@polymer/app-layout@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/app-layout/-/app-layout-3.0.0-pre.12.tgz#3e93514ecdc5e02a6b9fca586eb9d46ff78a4992"
   dependencies:
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/iron-media-query" "^3.0.0-pre.7"
-    "@polymer/iron-resizable-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-scroll-target-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/iron-media-query" "3.0.0-pre.12"
+    "@polymer/iron-resizable-behavior" "3.0.0-pre.12"
+    "@polymer/iron-scroll-target-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/font-roboto@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.0-pre.8.tgz#c8a3e168eacab03cd91fd52d7be72f4fd199cab9"
+"@polymer/font-roboto@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/font-roboto/-/font-roboto-3.0.0-pre.12.tgz#b19391245d1d36369f4c6136e0a328468f18f423"
 
-"@polymer/iron-a11y-announcer@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.0-pre.8.tgz#f8da5f22de28e12448738e376f0427e695835191"
+"@polymer/iron-a11y-announcer@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-announcer/-/iron-a11y-announcer-3.0.0-pre.12.tgz#1af9b650c9feaba6702622a2612475c18b2d6a83"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-a11y-keys-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.0-pre.8.tgz#bb090ba4065596c2f2bc5d463e408c499b706e1b"
+"@polymer/iron-a11y-keys-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-a11y-keys-behavior/-/iron-a11y-keys-behavior-3.0.0-pre.12.tgz#bb25b4b991c30514b2e156ed92952c7ce0e34c81"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-autogrow-textarea@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.0-pre.8.tgz#a879e4bf2dc931e8d88d0121edbfb158d34720ea"
+"@polymer/iron-autogrow-textarea@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-autogrow-textarea/-/iron-autogrow-textarea-3.0.0-pre.12.tgz#9104176232aea78284f07689bd59f7797550f08f"
   dependencies:
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/iron-validatable-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/iron-validatable-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-behaviors@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-3.0.0-pre.8.tgz#02916fe2314bd8b7fc2c3fe411b875fd46b32edb"
+"@polymer/iron-behaviors@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-behaviors/-/iron-behaviors-3.0.0-pre.12.tgz#b5a337c5e493b8e91b9d89ddb10ae6c1d864f835"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-checked-element-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-3.0.0-pre.8.tgz#926aae13c180898aff8cda822df5c5011f79da3c"
+"@polymer/iron-checked-element-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-checked-element-behavior/-/iron-checked-element-behavior-3.0.0-pre.12.tgz#f616aea6658037807186896dbdc83b7d44119c29"
   dependencies:
-    "@polymer/iron-form-element-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-validatable-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-form-element-behavior" "3.0.0-pre.12"
+    "@polymer/iron-validatable-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-dropdown@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-dropdown/-/iron-dropdown-3.0.0-pre.8.tgz#a9429a4b6ed2c5f73e9fc25e5482f57839334460"
+"@polymer/iron-dropdown@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-dropdown/-/iron-dropdown-3.0.0-pre.12.tgz#00f795f226e0991e6d44015b0abb2a9f29362fa9"
   dependencies:
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-overlay-behavior" "^3.0.0-pre.7"
-    "@polymer/neon-animation" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-overlay-behavior" "3.0.0-pre.12"
+    "@polymer/neon-animation" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-fit-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-fit-behavior/-/iron-fit-behavior-3.0.0-pre.8.tgz#789e252acde3fae08b0fd33d7ef763de96497cd3"
+"@polymer/iron-fit-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-fit-behavior/-/iron-fit-behavior-3.0.0-pre.12.tgz#c6aa70a768cda9ca34c5f564d3237953a5e70c37"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-flex-layout@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0-pre.8.tgz#9588dec5d06e1a3d0671007680e54121141df7f4"
+"@polymer/iron-flex-layout@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-flex-layout/-/iron-flex-layout-3.0.0-pre.12.tgz#209791d067521115e61a9fb2cb4070f0de82322b"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-form-element-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.0-pre.8.tgz#49cfbbcc053371b8f664b49509544566d94ac56b"
+"@polymer/iron-form-element-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-form-element-behavior/-/iron-form-element-behavior-3.0.0-pre.12.tgz#5c729b89d032fe1035891cb1c469dbb82665dc52"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-icon@^3.0.0-pre.7", "@polymer/iron-icon@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-icon/-/iron-icon-3.0.0-pre.8.tgz#5f1a5aa53ee74e0e76932a6ddd77f9ee380f055f"
+"@polymer/iron-icon@3.0.0-pre.12", "@polymer/iron-icon@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-icon/-/iron-icon-3.0.0-pre.12.tgz#5c6c8cef297ef02a25703c9de1dd7aef089c8ee7"
   dependencies:
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/iron-meta" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/iron-meta" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-icons@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-icons/-/iron-icons-3.0.0-pre.8.tgz#6adf32c7294acb4d159c770c0a471819b38ae145"
+"@polymer/iron-icons@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-icons/-/iron-icons-3.0.0-pre.12.tgz#35316139f6a2c84dc207dbecce174bf122921c0f"
   dependencies:
-    "@polymer/iron-icon" "^3.0.0-pre.7"
-    "@polymer/iron-iconset-svg" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-icon" "3.0.0-pre.12"
+    "@polymer/iron-iconset-svg" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-iconset-svg@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.0-pre.8.tgz#06c8f650517e7346f96b7200a2a4c3bef38255e0"
+"@polymer/iron-iconset-svg@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-iconset-svg/-/iron-iconset-svg-3.0.0-pre.12.tgz#99677b304a8ba72d5b6d9ec19ba4e0b16ef47662"
   dependencies:
-    "@polymer/iron-meta" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-meta" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-input@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.0-pre.8.tgz#532d9133da836f17cf1a1f2a79f76794523e9f23"
+"@polymer/iron-input@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-input/-/iron-input-3.0.0-pre.12.tgz#ea85137779e21d5f7d0d98fea9fc9d06f898cae7"
   dependencies:
-    "@polymer/iron-a11y-announcer" "^3.0.0-pre.7"
-    "@polymer/iron-validatable-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-announcer" "3.0.0-pre.12"
+    "@polymer/iron-validatable-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-media-query@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-media-query/-/iron-media-query-3.0.0-pre.8.tgz#2e733d499de700620701fbf59261f463ae915e41"
+"@polymer/iron-media-query@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-media-query/-/iron-media-query-3.0.0-pre.12.tgz#b24ad27df566d6990798f5465a7bade40ee197d5"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-menu-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-menu-behavior/-/iron-menu-behavior-3.0.0-pre.8.tgz#bc082fa4575ecd48b5811b846616e2f8d5584452"
+"@polymer/iron-menu-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-menu-behavior/-/iron-menu-behavior-3.0.0-pre.12.tgz#34c10d791a19078d67cd35684ff59171f5f3c783"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/iron-selector" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/iron-selector" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-meta@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.0-pre.8.tgz#820585d219f7a76c940be6cc3cf851e9df66db38"
+"@polymer/iron-meta@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-meta/-/iron-meta-3.0.0-pre.12.tgz#b89c280f4d004e7d6c8263d848803837e69d9776"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-overlay-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-overlay-behavior/-/iron-overlay-behavior-3.0.0-pre.8.tgz#2536b03b82b7e753744d5521ce4b4c6d3596cae1"
+"@polymer/iron-overlay-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-overlay-behavior/-/iron-overlay-behavior-3.0.0-pre.12.tgz#6567ce7d066536f46f16a0e952058b7118cac341"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-fit-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-resizable-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/iron-fit-behavior" "3.0.0-pre.12"
+    "@polymer/iron-resizable-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-resizable-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-resizable-behavior/-/iron-resizable-behavior-3.0.0-pre.8.tgz#2aa4489b1b45367fde383aa262374a5bb77c68a5"
+"@polymer/iron-resizable-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-resizable-behavior/-/iron-resizable-behavior-3.0.0-pre.12.tgz#22d468736073c7a65552000bc607ef7507328380"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-scroll-target-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-scroll-target-behavior/-/iron-scroll-target-behavior-3.0.0-pre.8.tgz#7cf1147ba27d1f3a069a68f5ab46ec73471b495c"
+"@polymer/iron-scroll-target-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-scroll-target-behavior/-/iron-scroll-target-behavior-3.0.0-pre.12.tgz#1c8e579cb1267c9d224a3a05255f442aa989fb98"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-selector@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-selector/-/iron-selector-3.0.0-pre.8.tgz#5eca616365ecd8b2a7e26bfcd8e5c02ba82b7705"
+"@polymer/iron-selector@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-selector/-/iron-selector-3.0.0-pre.12.tgz#0205c620b999f6e790db10200ccfdfd02916a78c"
   dependencies:
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/iron-validatable-behavior@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.0-pre.8.tgz#36f68542ba16b3b0692540db0c29c69af96e26df"
+"@polymer/iron-validatable-behavior@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/iron-validatable-behavior/-/iron-validatable-behavior-3.0.0-pre.12.tgz#1529a0e70960d2fcd362c1b5c6a7e728560e9c05"
   dependencies:
-    "@polymer/iron-meta" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-meta" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/neon-animation@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/neon-animation/-/neon-animation-3.0.0-pre.8.tgz#c900d19088bbfc501ddf0306136ce0a67b03087c"
+"@polymer/neon-animation@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/neon-animation/-/neon-animation-3.0.0-pre.12.tgz#395327088ee038f6355e6e08edab827d323f9392"
   dependencies:
-    "@polymer/iron-resizable-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-selector" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-resizable-behavior" "3.0.0-pre.12"
+    "@polymer/iron-selector" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-behaviors@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-3.0.0-pre.8.tgz#cc509c8f8f6fd59310f65bf14712668e2ae245d7"
+"@polymer/paper-behaviors@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-behaviors/-/paper-behaviors-3.0.0-pre.12.tgz#b6d7686fec73b32c14c106f753c2fc6798690e6e"
   dependencies:
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-checked-element-behavior" "^3.0.0-pre.7"
-    "@polymer/paper-ripple" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-checked-element-behavior" "3.0.0-pre.12"
+    "@polymer/paper-ripple" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-dropdown-menu@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-dropdown-menu/-/paper-dropdown-menu-3.0.0-pre.8.tgz#a8e179c51fb77559ca9dafdf8508802d45cc615d"
+"@polymer/paper-dropdown-menu@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-dropdown-menu/-/paper-dropdown-menu-3.0.0-pre.12.tgz#1f74a1202acae94b8c093ca55a73d9c2a9d49315"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-form-element-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-icon" "^3.0.0-pre.7"
-    "@polymer/iron-iconset-svg" "^3.0.0-pre.7"
-    "@polymer/iron-validatable-behavior" "^3.0.0-pre.7"
-    "@polymer/paper-behaviors" "^3.0.0-pre.7"
-    "@polymer/paper-input" "^3.0.0-pre.7"
-    "@polymer/paper-menu-button" "^3.0.0-pre.7"
-    "@polymer/paper-ripple" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/iron-form-element-behavior" "3.0.0-pre.12"
+    "@polymer/iron-icon" "3.0.0-pre.12"
+    "@polymer/iron-iconset-svg" "3.0.0-pre.12"
+    "@polymer/iron-validatable-behavior" "3.0.0-pre.12"
+    "@polymer/paper-behaviors" "3.0.0-pre.12"
+    "@polymer/paper-input" "3.0.0-pre.12"
+    "@polymer/paper-menu-button" "3.0.0-pre.12"
+    "@polymer/paper-ripple" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-icon-button@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-icon-button/-/paper-icon-button-3.0.0-pre.8.tgz#f7bd8a53761eaafd8ba9c2a6431516a2d2d48b54"
+"@polymer/paper-icon-button@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-icon-button/-/paper-icon-button-3.0.0-pre.12.tgz#52c63fc87d98998d055a1ff5fc46b207ce85c623"
   dependencies:
-    "@polymer/iron-icon" "^3.0.0-pre.7"
-    "@polymer/paper-behaviors" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-icon" "3.0.0-pre.12"
+    "@polymer/paper-behaviors" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-input@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.0-pre.8.tgz#4c5713d7131ca5590003e17668774c8ae7c3ebce"
+"@polymer/paper-input@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-input/-/paper-input-3.0.0-pre.12.tgz#d654786045a0f9638c228731d6478abbfe035e3c"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-autogrow-textarea" "^3.0.0-pre.7"
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-form-element-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-input" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/iron-autogrow-textarea" "3.0.0-pre.12"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-form-element-behavior" "3.0.0-pre.12"
+    "@polymer/iron-input" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-item@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-item/-/paper-item-3.0.0-pre.8.tgz#42e494bf8f8ffbc1eb77422e8560d397b9262ee8"
+"@polymer/paper-item@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-item/-/paper-item-3.0.0-pre.12.tgz#71524722bab67ec81b80d20ef8cd029cb8f7a3db"
   dependencies:
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-listbox@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-listbox/-/paper-listbox-3.0.0-pre.8.tgz#6abc9670dab7f46624cd09f61f285f0d7ccc61cb"
+"@polymer/paper-listbox@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-listbox/-/paper-listbox-3.0.0-pre.12.tgz#6ee17f0fcc7355fbc90577adcd695961e593b7cb"
   dependencies:
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-menu-behavior" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-menu-behavior" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-menu-button@^3.0.0-pre.7", "@polymer/paper-menu-button@^3.0.0-pre.8":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-menu-button/-/paper-menu-button-3.0.0-pre.8.tgz#439047f0196ac0b63ce2f5bd83a8c17840b5dd37"
+"@polymer/paper-menu-button@3.0.0-pre.12", "@polymer/paper-menu-button@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-menu-button/-/paper-menu-button-3.0.0-pre.12.tgz#4cb7e8bd1b5eaacce738342ddcf82ce21e682f45"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/iron-behaviors" "^3.0.0-pre.7"
-    "@polymer/iron-dropdown" "^3.0.0-pre.7"
-    "@polymer/iron-fit-behavior" "^3.0.0-pre.7"
-    "@polymer/neon-animation" "^3.0.0-pre.7"
-    "@polymer/paper-styles" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/iron-behaviors" "3.0.0-pre.12"
+    "@polymer/iron-dropdown" "3.0.0-pre.12"
+    "@polymer/iron-fit-behavior" "3.0.0-pre.12"
+    "@polymer/neon-animation" "3.0.0-pre.12"
+    "@polymer/paper-styles" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-ripple@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-ripple/-/paper-ripple-3.0.0-pre.8.tgz#e319e9f331148e68d333daf6bd3b709e09025ce1"
+"@polymer/paper-ripple@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-ripple/-/paper-ripple-3.0.0-pre.12.tgz#66f6f7ab406e7466a980eee0c92f5ff024fc57ea"
   dependencies:
-    "@polymer/iron-a11y-keys-behavior" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/iron-a11y-keys-behavior" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/paper-styles@^3.0.0-pre.7":
-  version "3.0.0-pre.8"
-  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.0-pre.8.tgz#3f5ee7b025a8af914928c7c86add23ff05ae4f4d"
+"@polymer/paper-styles@3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/paper-styles/-/paper-styles-3.0.0-pre.12.tgz#c8e27e078e10a3b90e74d67b964270abe7280ee3"
   dependencies:
-    "@polymer/font-roboto" "^3.0.0-pre.7"
-    "@polymer/iron-flex-layout" "^3.0.0-pre.7"
-    "@polymer/polymer" "^3.0.0-pre.7"
+    "@polymer/font-roboto" "3.0.0-pre.12"
+    "@polymer/iron-flex-layout" "3.0.0-pre.12"
+    "@polymer/polymer" "3.0.0-pre.12"
 
-"@polymer/polymer@^3.0.0-pre.7", "@polymer/polymer@^3.0.0-pre.9":
-  version "3.0.0-pre.9"
-  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.0.0-pre.9.tgz#f25a9f6674a9fee0e486259b34ec60a6dcaffb28"
+"@polymer/polymer@3.0.0-pre.12", "@polymer/polymer@^3.0.0-pre.12":
+  version "3.0.0-pre.12"
+  resolved "https://registry.yarnpkg.com/@polymer/polymer/-/polymer-3.0.0-pre.12.tgz#3f5dd19099a194bf1066cf417ae13c335bd63b04"
   dependencies:
     "@webcomponents/shadycss" "^1.0.0"
     "@webcomponents/webcomponentsjs" "^1.0.0"
 
 "@webcomponents/shadycss@^1.0.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.1.1.tgz#abc821961c99a2b1c5e0f225cd01b139899ebc4c"
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@webcomponents/shadycss/-/shadycss-1.1.3.tgz#6d4c7d2d842de9dba1b3ac5cc051938b8439c043"
 
 "@webcomponents/webcomponentsjs@^1.0.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-1.1.0.tgz#1392799c266fca142622a720176f688beb74d181"
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-1.2.0.tgz#c9e129340c3e4637f5fa6505e968e85face7bd5b"
