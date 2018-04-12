@@ -26,6 +26,7 @@ class EmbeddedPlunker extends PolymerElement {
   }
   
   loadPlunk(event){
+    console.log("loadPlunk", event);
     var iframe = document.createElement("iframe");
     iframe.id="iframe";
     iframe.frameBorder="0";
