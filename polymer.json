@@ -11,12 +11,11 @@
   ],
   "extraDependencies": [
     "manifest.json",
-    "node_modules/@webcomponents/webcomponentsjs/**",
-    "serviceworker.js"
+    "node_modules/@webcomponents/webcomponentsjs/**"
   ],
   "builds": [
     { "preset": "es5-bundled" },
-    { "preset": "es6-unbundled" }
+    { "preset": "es6-unbundled", "addServiceWorker": true, "addPushManifest": true }
   ],
   "npm": true,
   "moduleResolution": "node"
