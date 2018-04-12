@@ -1,18 +1,15 @@
 // Import Polymer library and utils
-import { 
-  Element as PolymerElement, 
-  html 
-} from './node_modules/@polymer/polymer/polymer-element.js';
-import { setPassiveTouchGestures } from './node_modules/@polymer/polymer/lib/utils/settings.js';
-import './node_modules/@polymer/polymer/lib/elements/dom-repeat.js';
+import { PolymerElement, html } from '@polymer/polymer/polymer-element.js';
+import { setPassiveTouchGestures } from '@polymer/polymer/lib/utils/settings.js';
+import '@polymer/polymer/lib/elements/dom-repeat.js';
 
 // Import web component for header
-import './node_modules/@polymer/app-layout/app-toolbar/app-toolbar.js';
+import '@polymer/app-layout/app-toolbar/app-toolbar.js';
 
 // Import web components for nav bar
-import './node_modules/@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
-import './node_modules/@polymer/paper-item/paper-item.js';
-import './node_modules/@polymer/paper-listbox/paper-listbox.js';
+import '@polymer/paper-dropdown-menu/paper-dropdown-menu.js';
+import '@polymer/paper-item/paper-item.js';
+import '@polymer/paper-listbox/paper-listbox.js';
 
 class PolymerSandbox extends PolymerElement {
   constructor(){
